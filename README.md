@@ -57,8 +57,6 @@ Analyzes a TLS handshake and certificate chain using:
 - `openssl_output.png` (screenshot)
 - `wireshark_tls_handshake.png` (screenshot)
 
-> ⚠️ Screenshots must be manually captured.
-
 ---
 
 ### ✅ Task 4: Email Encryption and Signature Simulation (8 pts)
