@@ -1,0 +1,30 @@
+# Task 3: TLS Communication Inspection & Analysis
+
+## 1. OpenSSL Output Summary (example.com)
+
+Command Used:
+    openssl s_client -connect example.com:443
+
+### Output Includes:
+- TLS Version: TLS 1.3
+- Cipher Suite: TLS_AES_256_GCM_SHA384
+- Certificate Chain:
+    1. Root CA: ISRG Root X1
+    2. Intermediate CA: R3
+    3. Leaf Certificate: example.com
+
+## 2. Wireshark TLS Handshake Summary
+
+Captured TLS Handshake for https://example.com
+
+### Key Events:
+- Client Hello: Sent with supported cipher suites, extensions, and SNI.
+- Server Certificate: Delivered server's certificate chain.
+- Key Exchange: Encrypted key exchange using ephemeral keys.
+- Finished: Secure connection established.
+
+## 3. TLS Confidentiality and Integrity
+
+- **Confidentiality**: Achieved using symmetric encryption (AES-GCM) after handshake.
+- **Integrity**: Ensured using HMACs and AEAD cipher modes like AES-GCM.
+- **Authentication**: Achieved via server certificates signed by trusted authorities.

@@ -1,0 +1,12 @@
+{
+  "original.txt": {
+    "sha256": "2c8a7450b4e60b8b4ae72b0586cfdce8b972273fd084d6c1324d9b937c928d7f",
+    "sha1": "fdd2ada3dbcede970087fa3fb4b7b41229d1c0e5",
+    "md5": "f8059c448d50b537dfdd7f453177e7e3"
+  },
+  "tampered.txt": {
+    "sha256": "763ea13d72338becfe5c8bc8f57ca7c678f0a558fc8fa4e0bc62104b38d88940",
+    "sha1": "d56a2673c638d5d360bdc171dad8a8a90938566f",
+    "md5": "55a9d3df677500f2dcc1e5e63d78ba2f"
+  }
+}

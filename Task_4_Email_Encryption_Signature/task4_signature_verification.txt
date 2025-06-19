@@ -1,0 +1,19 @@
+# Task 4: Email Encryption and Signature (PGP)
+
+## Overview
+
+- Alice signed and encrypted a message to Bob using GPG (PGP).
+- Bob decrypted the message and verified the signature to confirm authenticity.
+
+## How Signature Validates Sender
+
+- Alice used her private key to sign the message.
+- The signature is verified by Bob using Alice's public key.
+- If the signature is valid, the message is confirmed to come from Alice and has not been tampered with.
+
+## Files
+
+- `original_message.txt`: Alice's original message
+- `signed_message.asc`: Encrypted and signed message
+- `decrypted_message.txt`: Final message Bob sees
+- `public.asc`, `private.key`: Alice's public and private key
